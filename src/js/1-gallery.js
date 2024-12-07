@@ -97,4 +97,4 @@ const imageListEl = document.querySelector('.gallery');
 imageListEl.innerHTML = imageGallery;
 
 
-new SimpleLightbox('.gallery a', { captionData: 'alt', captionDelay: 250, });
+new SimpleLightbox('.gallery a', { captionsData: 'alt', captionDelay: 250 });
